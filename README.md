@@ -3,5 +3,5 @@
 * Segmenting customers according to predicted customer lifetime value
 * Suggesting products with association rule learning
 
-## Data set:
-online_retail_II.xlsx: The data set includes the sales of a UK-based online store between 01/12/2009 - 09/12/2011. The product catalog of this company is mostly souvenirs. It can also be considered as promotional products.
+## Dataset:
+online_retail_II.xlsx: The dataset includes the sales of a UK-based online store between 01/12/2009 - 09/12/2011. The product catalog of this company is mostly souvenirs. It can also be considered as promotional products.
