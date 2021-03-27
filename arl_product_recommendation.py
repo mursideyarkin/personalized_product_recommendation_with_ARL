@@ -17,8 +17,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.max_columns', None)
 
 # Importing data from external file
-df_ = pd.read_excel("online_retail_II.xlsx",
-                    sheet_name="Year 2010-2011")
+df_ = pd.read_excel("online_retail_II.xlsx", sheet_name="Year 2010-2011")
 df = df_.copy()
 
 ######################################
@@ -30,10 +29,6 @@ check_df(df)
 
 # There are null observations in the dataset, especially in the Customer ID column.
 # Since this analysis will be consumer-based, we need to remove these observations from the dataset.
-# Therefore, we will eliminate these observations in the next step (data preprocessing).
-
-# Basic descriptive statistics:
-print(df.quantile([0, 0.05, 0.50, 0.95, 0.99, 1]).T)
 # There are negative values in the Quantity and Price columns.These transactions are canceled orders.
 # In the next step (data preprocessing), we'll eliminate these observations.
 
