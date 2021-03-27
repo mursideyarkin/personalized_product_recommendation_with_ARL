@@ -10,7 +10,7 @@ online_retail_II.xlsx: The data set includes the sales of a UK-based online stor
 ## Project steps:
 
 1. Importing data set and libraries
-2. Data preprocessing (Calculating RFM metrics)
+2. Data preprocessing (calculating RFM metrics)
 3. 6-months customer lifetime value prediction and customer segmentation 
 4. Creating new data sets according to segments
 5. Generation of product association rules for each segment
