@@ -2,6 +2,16 @@
 # PERSONALIZED PRODUCT RECOMMENDATIONS WITH ASSOCIATION RULE LEARNING
 ######################################################################
 
+# PROJECT STEPS:
+
+# 1. Importing data set and libraries
+# 2. Data set check
+# 3. Data preprocessing
+# 4. 6-months customer lifetime value prediction and customer segmentation
+# 5. Creating new data sets according to segments
+# 6. Generation of product association rules for each segment
+# 7. Product recommendations for German customers
+
 ##########################################
 # STEP 1: IMPORT DATA SETS AND LIBRARIES
 ##########################################
