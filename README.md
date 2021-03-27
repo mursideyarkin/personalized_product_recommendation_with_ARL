@@ -1,5 +1,4 @@
 ## Project purposes:
-* Examining the purchasing habits of customers by calculating RFM metrics
 * Predicting 6-months customer lifetime value
 * Segmenting customers according to predicted customer lifetime value
 * Suggesting products with association rule learning
@@ -10,8 +9,9 @@ online_retail_II.xlsx: The data set includes the sales of a UK-based online stor
 ## Project steps:
 
 1. Importing data set and libraries
-2. Data preprocessing (calculating RFM metrics)
-3. 6-months customer lifetime value prediction and customer segmentation 
-4. Creating new data sets according to segments
-5. Generation of product association rules for each segment
-6. Product recommendations for German customers
+2. Data set check
+3. Data preprocessing
+4. 6-months customer lifetime value prediction and customer segmentation 
+5. Creating new data sets according to segments
+6. Generation of product association rules for each segment
+7. Product recommendations for German customers
